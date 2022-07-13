@@ -1,0 +1,296 @@
+
+.main-header{
+
+    background-image: url(img/Header\ Background.jpg);
+    background-size: cover;
+    background-blend-mode: multiply;
+    padding-bottom: 30px;
+
+}
+.nav li{
+    display: inline;
+}
+.nav a{
+    display: inline-block;
+    padding: 0.5em;
+    color: white;
+    text-decoration: none;
+}
+.nav a:hover{
+    background-color: rgba(255,255,255,0.3);
+}
+.main-nav{
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: lighter;
+    border-bottom: 1px solid rgba(255,255,255,0.4);
+
+}
+.main-nav li{
+    padding: 0 6%;
+}
+.band{
+text-align: center;
+margin: 0;
+font-size: 4em;
+font-family: "Booter - Zero Zero";
+font-weight: normal;
+color: ivory;
+}
+.band-l{
+font-size: 8.5em;
+
+}
+*{
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    color: grey;
+}
+html, body{
+    margin: 0;
+    padding: 0;
+}
+.nav ul{
+    margin: 0;
+}
+
+@font-face {
+    font-weight: normal;
+    font-style: normal;
+    font-family: "Booter - Zero Zero";
+    src: url("Fonts/Booter - Zero Zero.woff")format("woff"),
+    url("Fonts/Booter - Zero Zero.woff2")format("woff2");
+       
+}
+
+.content-sect{
+    margin: 1em;
+}
+.container{
+    margin: 0 auto;
+    padding: 0 1.5em;
+    max-width: 900px;
+}
+.sect-header{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: normal;
+    color: rgb(37, 0, 139);
+    text-align: center;
+    font-size: large;
+}
+.bi{
+    float: left;
+    height: 220px;
+    width: 220px;
+    margin: 15px;
+    border-radius: 50%;
+
+}
+.main-footer{
+    background-color: skyblue;
+    color:bisque;
+    padding:0.25em;
+}
+.f-c{
+    display:flex;
+    align-items: center;    
+}
+.f-c ul{
+    flex-grow: 1;
+    text-align: end;
+}
+.f-n li{
+    padding: 0 0.5em;
+}
+.f-n img{
+    width: 30px;
+    height: 30px;
+}
+.btn{
+    text-align: center;
+    vertical-align: middle;
+    padding: 0.67em;
+    cursor: pointer;
+}
+.b-h{
+    margin: 0.5em 15% 2em 15%;
+    color: white;
+    border: 2px solid rgb(241, 148, 18);
+    background-color: rgba(255,255,255,0.1);
+    border-radius: 0;
+    font-size: 1.5em;
+    font-weight:bolder;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+.b-h:hover{
+    background-color: rgba(11, 122, 65, 0.4);
+}
+.b-p{
+    display: block;
+    margin: 0 auto;
+    color: rgb(207, 224, 23);
+    font-size: 4em;
+    border-radius: 50%;
+    padding: 0;
+    width: 100px;
+    height: 100px;
+}
+.tour-row{
+    padding-bottom:1em;
+    margin: 1em;
+    border-bottom: 1px solid black;
+}
+.tour-row:last-child{
+    border-bottom: none;
+}
+.t-i{
+    padding-right:0.5em;
+    display: inline-block;
+}
+.t-d{
+    color: #555;
+    font-weight: bold;
+    width: 11%;
+}
+.t-c{
+width: 24%;
+}
+.t-a{
+width: 42%;
+}
+.t-b{
+max-width: 19%;
+background-color: rgb(50, 159, 202);
+color: white;
+border: none;
+border-radius: 0.3em;
+font-weight: bold;
+}
+.t-b:hover{
+    background-color: blue;
+}
+.t-primary{
+    background-color: rgb(50, 159, 202);
+    color: white;
+}
+.t-primary:hover{
+    background-color: blue;
+}
+.shop-item{
+    margin: 30px;
+}
+.shop-title{
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 15px;
+}
+.shop-img{
+    height: 250px;
+}
+.shop-details{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+.shop-price{
+    flex-grow: 1;
+    color: #333;
+
+}
+.shop-items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.cart-h{
+    font-weight: bold;
+    font-size: 1.25em;
+    color: #333;
+}
+.cart-col{
+    border-bottom: 1px solid black;
+    display: flex;
+    align-items: center;
+    margin-right: 1.5em;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+.cart-row{
+    display: flex;
+}
+.cart-item{
+width: 45%;
+}
+.cart-price{
+width: 20%;
+font-size: 1.2em;
+color: #333;
+}
+.cart-quant{
+width: 35%;
+}
+.cart-img{
+width: 75px;
+height: auto;
+border-radius: 10px;
+}
+.cart-t{
+color: #333;
+margin-left: 0.5em;
+font-size: 1.2em;
+}
+.cart-ip{
+height: 34px;
+width: 50px;
+border-radius: 5px;
+border: 1px solid blue;
+background-color: #eee;
+color: #333;
+padding: 0;
+text-align: center;
+font-size: 1.2em;
+margin-right: 25px;
+}
+
+.btn-danger{
+background-color: red;
+color: white;
+border: none;
+border-radius: 0.3em;
+font-weight: bold;
+}
+.btn-danger:hover{
+    background-color: mediumvioletred;
+}
+.cart-row:last-child{
+    border-bottom: 1px solid black;
+}
+.cart-row:last-child .cart-col{
+    border: none;
+}
+.cart-tot{
+text-align: end;
+margin-top: 10px;
+margin-right: 10px;
+
+}
+.cart-tt{
+font-weight: bolder;
+font-size: 1.5em;
+color: black;
+margin-right: 20px;
+}
+.cart-tp{
+color: #333;
+font-size: 1.1em;
+}
+.btn-purchase{
+    display: block;
+    margin: 40px auto 80px auto;
+    font-size: 1.55em;
+}
